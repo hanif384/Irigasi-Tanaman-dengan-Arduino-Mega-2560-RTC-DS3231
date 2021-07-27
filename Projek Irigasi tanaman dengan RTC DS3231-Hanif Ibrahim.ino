@@ -38,30 +38,7 @@ int waktu_siram;
 int Pompa =2;
 
 
-//pompa A-B(nutrisi), Pompa C-D(pH down- pH up), Pompa 1 sirkulasi - Pompa 2 netralisir PPM
-//int nutA        = 3;
-//int nutB        = 4;
-//int nutC        = 5;
-//int nutD        = 6;
-//int pompa_1     = 2;
-
-//inisialisasi pompa dalam millis
-//int nutstateA     = LOW;
-//int nutstateB     = LOW;
-//int nutstateC     = LOW;
-//int nutstateD     = LOW;
-//int pompastate2   = LOW;
-
-//unsigned long previousMillisPPM = 0;
-//unsigned long previousMillisPH  = 0;
-
-//mengatur berapa lama nyala dan mati (nutA, nutB, nutC, nutD, Pompa_2)
-//long ontimePPM            = 1000;
-//long offtimePPM           = 30000;
-//long ontimenetralPPM      = 1500;
-//long offtimenetralPPM     = 10000;
-//long ontimePH             = 1000;
-//long offtimePH            = 30000;
+//
 unsigned long mantap;
 
 //icon menu modify
