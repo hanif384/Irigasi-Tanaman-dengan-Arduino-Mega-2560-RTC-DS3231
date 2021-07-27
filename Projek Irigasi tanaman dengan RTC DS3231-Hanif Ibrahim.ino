@@ -1,3 +1,4 @@
+//penempatan Library yang digunakan "pastikan anda sudah menginstal library"
 #include <Arduino.h>
 #include <LiquidCrystal_I2C.h>
 #include <Wire.h>
@@ -63,7 +64,7 @@ int Pompa =2;
 //long offtimePH            = 30000;
 unsigned long mantap;
 
-//icon cokkk
+//icon menu modify
 byte customChar[] = {
   B00000,
   B00100,
@@ -217,7 +218,7 @@ void setup() {
 }
 
 void loop() {
-  //pompa sirkulasi dinyalakan secara terus menerus
+  //penempatan beberapa looping yang dibuat
   
   read_LCD_button();
   
@@ -263,6 +264,7 @@ void rtcrelay(){
 
 
 void read_LCD_button(){
+  //ini adalah kalibrasi dimana ada 5 buah button yang mengirim value di serial monitor kita kalibrasikan untuk setting input dan output ke dala LCD
   adc_key_in = analogRead(A0);
   Serial.println(adc_key_in);
   if(adc_key_in >= 850){
@@ -298,6 +300,7 @@ void read_LCD_button(){
 }
 
 void baca_LCD(){
+  //reading 0 karena bukan mode baca
   if(button >= 1 || Reading == 0){
     Reading = 0;
     if(Screen == 1){
