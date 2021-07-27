@@ -1,7 +1,0 @@
-#Code Projek Irigasi Tanaman dengan Arduino Mega 2560 RTC DS3231
-
-Pertama kita membutuhkan beberapa library yaitu
-1. LiquidCrystal.I2C.h
-2. EEPROM.h
-3. RTClib.h
-anda juga bisa menambahkan sensor lain untuk dikembangkan lebih lanjut
